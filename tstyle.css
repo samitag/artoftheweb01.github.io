@@ -3,9 +3,19 @@ body {
     background-color: #ffebcd;
 }
 
+@font-face {
+    font-family: altfont;
+    src: url(SnellBT-Regular.otf);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
+
 #text{
     color:#010178;
-    font-family: 'Snell Roundhand', cursive;
+    font-family: altfont,cursive;
+    font-family: cursive;
     font-size: 50px;
     display: flex;
     justify-content: center;
