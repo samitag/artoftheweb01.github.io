@@ -8,14 +8,9 @@ body {
     src: url(SnellBT-Regular.otf);
   }
   
-  div {
-    font-family: myFirstFont;
-  }
-
 #text{
     color:#010178;
-    font-family: altfont,cursive;
-    font-family: cursive;
+    font-family: 'altfont', cursive;
     font-size: 50px;
     display: flex;
     justify-content: center;
