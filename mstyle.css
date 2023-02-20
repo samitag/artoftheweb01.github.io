@@ -1,16 +1,15 @@
-html, body {
+body {
     background-color: #d5e9f1;
     font-family: Optima LT;
     margin: 0;
     height: 100%;
     padding: 0;
-
 }
 
 #drink{
     position:absolute;
-    width: 100vh;
-    height: 100vh;
+    max-width: 100vh;
+    max-height: 100vh;
     margin: auto;
 }
 
