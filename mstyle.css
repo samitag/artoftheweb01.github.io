@@ -7,15 +7,11 @@ html, body {
 
 }
 
-/* #drink{
+#drink{
     position:absolute;
     width: 100vh;
     height: 100vh;
     margin: auto;
-} */
-
-#drink{
-    min-height: 100%; 
 }
 
 #umbrella {
