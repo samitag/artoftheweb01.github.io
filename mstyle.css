@@ -1,18 +1,21 @@
-body {
+html, body {
     background-color: #d5e9f1;
     font-family: Optima LT;
     margin: 0;
     height: 100%;
-    width:100%;
     padding: 0;
 
 }
 
-#drink{
+/* #drink{
     position:absolute;
     width: 100vh;
     height: 100vh;
     margin: auto;
+} */
+
+#drink{
+    min-height: 100%; 
 }
 
 #umbrella {
