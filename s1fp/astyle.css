@@ -1,0 +1,44 @@
+body {
+  background-color: #d6eaf1;
+  font-family: Optima LT;
+  background-image: url('active.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#link {
+  font-style: italic;
+  background-color: rgb(242, 242, 242, 0.7);
+  color: #4f2b11;
+  text-decoration: none;
+  border-style: solid;
+  font-size: 40px;
+  font-family: Optima, serif;
+  padding: 10px;
+  height: 150px;
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+}
+
+#link:hover {
+  background-color: rgb(242, 242, 242);
+}
+
