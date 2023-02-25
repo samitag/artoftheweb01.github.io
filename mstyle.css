@@ -4,20 +4,24 @@ body {
     margin: 0;
     height: 100%;
     padding: 0;
-
 }
 
-#drink{
-    position:absolute;
-    max-width: 100vh;
-    max-height: 100vh;
+#drink {
+    background-image: url("drink.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100vh;
     margin: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #umbrella {
-    position: absolute;
-    top: 90;
-    left: 250;
+    position: fixed;
+    right: 65vw;
+    top: 11%;
     animation-name: spin;
     animation-duration: 6s;
     animation-iteration-count: infinite;

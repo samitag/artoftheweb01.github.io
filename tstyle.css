@@ -38,6 +38,7 @@ body {
     height: 40px;
     width: fit-content;
     padding: 10px;
+    padding-left: 22px;
     border-style: solid;
     border-radius: 50%;
     position: absolute;
