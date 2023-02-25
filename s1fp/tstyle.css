@@ -34,10 +34,11 @@ body {
 #back {
     font-size: 30px;
     border-color:#010178;
-    font-family: Snell Roundhand, cursive;
+    font-family: 'altfont', cursive;
     height: 40px;
     width: fit-content;
     padding: 10px;
+    padding-left: 22px;
     border-style: solid;
     border-radius: 50%;
     position: absolute;
